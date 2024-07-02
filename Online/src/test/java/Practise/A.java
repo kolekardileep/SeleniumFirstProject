@@ -9,6 +9,7 @@ public class A {
 	public static void main(String[] args) {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
+		// This Project has been updated from GIT HUB - WEB APPLICATION REPOSITORY
 		
 		driver.get("http://localhost:8888/");
 		driver.findElement(By.name("user_name")).sendKeys("admin");
