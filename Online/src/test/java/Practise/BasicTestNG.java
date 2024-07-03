@@ -18,6 +18,7 @@ public void modifyProduct()
 public void deleteProduct()
 {
 	System.out.println("Product Delete");
+	//2nd Push from java
 
 }
 
